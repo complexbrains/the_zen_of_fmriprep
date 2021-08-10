@@ -1,0 +1,7 @@
+### Variance explained by t/aCompCor components:
+
+CompCor is a PCA, hence component-based, noise pattern recognition method. In the method, principal components are calculated within an ROI that is unlikely to include signal related to neuronal activity, such as CSF and WM masks. Signals extracted from CompCor components can be further regressed out from the fMRI data with a denoising procedure. The voxels remains within the afromentioned brain mask are used to generate compcor curves for the white matter, csf, combined white matter and csf, and temporal variation.
+
+Plots of the cumulative variance explained by each component, ordered by descending singular value. fMRIPrep determines whether each component should be saved for use in denoising operations based on whether or not it contributes to explaining the top 50 percent of variance in the nuisance ROI mask. The number of components is plotted on the abscissa and the cumulative variance explained on the ordinate. Dotted lines indicate the minimum number of components necessary to explain 50%, 70%, and 90% of the variance in the nuisance mask. 
+
+ Here can be used to determine the number of CompCor confounds to include in your design matrix for analysis. However one thing to take into account that, adding more nuisance regressors comes with removal of more degrees of freedom and less statistical power.
