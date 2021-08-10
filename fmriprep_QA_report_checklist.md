@@ -1,4 +1,4 @@
-# Fmriprep Quality Analysis Report Checklist
+# fMRIPrep Quality Analysis Report Checklist
 
 
 | fMRIPrep Checklist/Subject ID   | Sub-001 | Sub-002  |
@@ -6,20 +6,20 @@
 | ID:|         |     |
 | Structural:|         |     |
 | Functional:|         |     |
-| Standart output spaces:|         |     |
-| Non-standart output spaces:|         |     |
+| Standard output spaces:|         |     |
+| Non-standard output spaces:|         |     |
 | Freesurfer reconstruction:|         |     |
 | **Error Tab**|         |     |
 | Is there is any reported error?|         |     |
 | **Structural Images**|         |     |
 | Any missing data?|         |     |
 | Data labelling matches?|     |     |                                       |Data dimension matches?          |     |
-|Voxel Size mathes?|         |     |
+|Voxel Size matches?|         |     |
 | Any discarded images?|         |     |
 | [**Brain mask and brain tissue segmentation of the T1w**](https://github.com/complexbrains/the_zen_of_fmriprep/blob/main/report_section_definitions/brain_mask_and_anatomical_temporal_CompCor_ROIs.md)|         |     |
 | Grey matter outlines, magenta lines, are  correctly drawn?|         |     |
 | White matter outlines, blue lines, are  correctly drawn?|         |     |
-| Blue line follows the white/gray matter tissue boundary?|         |     |
+| Blue line follows the white/grey matter tissue boundary?|         |     |
 | Red line follows the brain mask that covers the whole brain, not dura or any other outside of the brain?|         |     |
 | Any intensity/non-uniformity artifacts? |         |     |
 | [**Spatial normalization of the Anatomical T1w Reference**](https://github.com/complexbrains/the_zen_of_fmriprep/blob/main/report_section_definitions/spatial_normalization_of_the_anatomical_T1w_reference.md) |         |     |
@@ -57,7 +57,7 @@
 | Anything suspicious? |         |     |
 | [**BOLD Summary**](https://github.com/complexbrains/the_zen_of_fmriprep/blob/main/report_section_definitions/BOLD_summary.md)|         |     |
 | Investigate the big spikes in any of the line plots.|         |     |
-| Review the carpet plot (the thing that looks like static that). This plot shows you the time series of each major tissue types. The blue column represents the voxels from cortical areas, orange column represents subcortical, green is for gray matter and cerebellum, and red for white matter and CSF. For any columns that all seem to have a jump in values, this will look like vertical bands or lines down the plot covers across the entire column for that time point. |         |     |
+| Review the carpet plot (the thing that looks like static that). This plot shows you the time series of each major tissue types. The blue column represents the voxels from cortical areas, orange column represents subcortical, green is for grey matter and cerebellum, and red for white matter and CSF. For any columns that all seem to have a jump in values, this will look like vertical bands or lines down the plot covers across the entire column for that time point. |         |     |
 | [**Correlations among nuisance regressors**](https://github.com/complexbrains/the_zen_of_fmriprep/blob/main/report_section_definitions/correlations_among_nuisance_regressors.md)|         |     |
 | Investigate the highly correlated components.|         |     |
 | [**ICA Components classified by AROMA**](https://github.com/complexbrains/the_zen_of_fmriprep/blob/main/report_section_definitions/ICA_components_classified_by_AROMA.md)|         |     |
