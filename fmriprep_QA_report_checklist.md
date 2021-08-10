@@ -70,10 +70,17 @@ Please not that, these are entirely my own personal notes to myself to make sure
 Therefore the definitions of the subsections in the report were taken as they are from the references below to make sure the definitions are reflected as they should be (to avoid any rephrasing related misdirection). However I will make sure in the close future that I will make them summarised. 
 
 [fMRIPrep Guideline](https://fmriprep.org/en/stable/outputs.html)
+
 [fMRIPrep Report Guideline](https://docs.google.com/document/d/1TE6ZWzNg8cDpvL4Vu0VGOZQLXkQ88Fa59AORzN01Avk/edit#)
-[Identifying and removing widespread signal deflections from fMRI data: Rethinking the global signal regression problem)
+
+[Identifying and removing widespread signal deflections from fMRI data: Rethinking the global signal regression problem](https://www.sciencedirect.com/science/article/pii/S1053811920301014)
+
 [Using fmriprep for fMRI data preprocessing](https://medium.com/@gelana/using-fmriprep-for-fmri-data-preprocessing-90ce4a9b85bd)
+
 [Andy's Brain Book](https://andysbrainbook.readthedocs.io/en/latest/OpenScience/OS/fMRIPrep.html)
+
 [Neurostars fMRIPrep Questions](https://neurostars.org/search?q=fmriprep)
+
 [Nipy - Nibabel](https://nipy.org/nibabel/coordinate_systems.html#naming-reference-spaces)
+
 [fMRIPrep QA Guideline](https://github.com/complexbrains/fmriprep_qa_guide)
